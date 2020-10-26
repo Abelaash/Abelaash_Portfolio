@@ -425,19 +425,7 @@ img{
   .about__img img{
     width: 300px;
   }
-  .work__container{
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2,1fr);
-    column-gap: 2rem;
-  }
-  .contact__form{
-    width: 360px;
-  }
-  .contact__container{
-    justify-items: center;
-  }
   
-}
 
 @media screen and (min-width: 1024px){
   .bd-grid{
@@ -447,4 +435,167 @@ img{
   .home__img{
     right: 10%;
   }
+}
+}
+
+
+
+.projtitle {
+  margin-top: 10%;
+  font-weight: bold;
+  font-size: 15pt;
+}
+
+.projtitles {
+  margin-top: 4%;
+  font-weight: bold;
+  font-size: 16pt;
+}
+
+.projdesc ul li{
+  font-size: 14pt;
+  font-weight: lighter;
+  margin-top: 25px;
+  width: 60%;
+  text-align: justify;
+  list-style-type: circle;
+
+}
+
+.links {
+  margin-right: 39%;
+  text-align: right;
+  font-size: 14pt;
+  margin-bottom: 55px;
+}
+
+.links a {
+  text-decoration: none;
+  margin-right: 7px;
+  border: #232e5b 1px solid;
+  border-radius: 3px;
+  padding: 5px;
+}
+
+.links a:hover {
+  border: #c9cad6 1px solid;
+  color: #c9cad6;
+}
+
+.tablink {
+  background-color:white;
+  color: #232e5b;
+  border: 2px solid #232e5b;
+  float: left;
+  padding: 10px 12px;
+  border-radius: 3px;
+  font-size: 15px;
+  width: 18%;
+  margin-top: 20px;
+  margin-right: 30px;
+}
+
+.tools {
+  text-align: left;
+  margin-top: 10px;
+  font-size: 10pt;
+  margin-bottom: 15px;
+}
+
+.tools button {
+  text-decoration: none;
+  margin-right: 7px;
+  border: #232e5b 1px solid;
+  border-radius: 3px;
+  padding: 7px;
+}
+body {
+  background: #f7f7f7;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.header {
+  overflow: hidden;
+  padding: 20px 10px;
+}
+
+.header a, .header a:active, .header a:visited {
+  float: left;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px; 
+  line-height: 25px;
+  border-radius: 4px;
+  background-color: #232e5b;
+  color: white;
+}
+
+.header a.title {
+  font-size: 20px;
+  font-weight: none;
+}
+
+.headright {
+  float: right;
+}
+
+.headright a {
+  color: white;
+  margin-right: 7px;
+}
+
+.page1 {
+  color:#232e5b;
+  left: 2%;
+  margin: auto;
+  position: absolute;
+  width: 95%;
+  height: 700px;
+}
+
+.head {
+  margin-top: 125px;
+}
+
+#info{
+  font-size: 40pt;
+  font-weight: bold;
+  margin-left: 8%;
+}
+
+.desc {
+  font-size: 20pt;
+  font-weight: lighter;
+  margin-top: 25px;
+  margin-left: 8%;
+}
+
+
+.links {
+  font-size: 15pt;
+  margin-top: 25px;
+  margin-left: 8%;
+}
+
+.links a {
+  color: #232e5b;
+  margin-right: 20px;
+  text-decoration: underline;
+}
+
+.links a:visited {
+  color: #232e5b;
+  
+}
+
+
+
+a {
+  text-decoration: none;
+  color: #232e5b;
+}
+
+a:visited {
+  color: #232e5b;
 }
