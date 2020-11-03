@@ -305,20 +305,58 @@ img{
 }
 
 /* ===== WORK =====*/
-.work__container{
+/* ===== WORK =====*/
+.workcontainer{
   row-gap: 2rem;
 }
-.work__img{
+.workimg{
   box-shadow: 0 4px 25px rgba(14,36,49,.15);
   border-radius: .5rem;
   overflow: hidden;
 }
-.work__img img{
+.workimg img{
   transition: 1s;
   cursor: pointer;
 }
-.work__img img:hover{
+.workimg img:hover{
   transform: scale(1.1);
+}
+.work .serv-content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.work .serv-content .card{
+    width: calc(33% - 20px);
+    background: #222;
+    text-align: center;
+    border-radius: 6px;
+    padding: 20px 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.work .serv-content .card:hover{
+    background: purple;
+}
+.work .serv-content .card .box{
+    transition: all 0.3s ease;
+}
+.work .serv-content .card:hover .box{
+    transform: scale(1.05);
+}
+.work .serv-content .card i{
+    font-size: 50px;
+    color: purple;
+    transition: color 0.3s ease;
+}
+.work .serv-content .card:hover i{
+    color: white;
+}
+.work .serv-content .card .text{
+    font-size: 25px;
+    font-weight: 500;
+    margin: 10px 0 7px 0;
 }
 
 /* ===== CONTACT =====*/
