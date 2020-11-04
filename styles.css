@@ -367,6 +367,62 @@ img{
   cursor: pointer;
   margin-left: auto;
 }
+.resource .contact-content{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.resource .contact-content .column{
+  width: 400px;
+}
+.resource .contact-content .text{
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.resource .contact-content p{
+  text-align: center;
+}
+.resource .contact-content .row{
+  display: flex;
+  height: 65px;
+  align-items: center;
+}
+.resource .contact-content .row .info{
+  margin-left: 30px;
+}
+.resource .contact-content .row i{
+  font-size: 25px;
+  color: #4070F4;
+}
+.resource .contact-content .info .head{
+  font-weight: 500;
+}
+.resource .contact-content .info .sub-title{
+  color: #333;
+}
+.resource .contact-content p{
+  margin-top: 15vh;
+  font-size: 1.25rem;
+}
+.resource .contact-content .links{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.resource #profile-link, .contact-content .logo{
+  text-decoration: none;
+  color: #4070F4;
+  border: 1px solid #4070F4;
+  padding: 10px;
+}
+
+.resource #profile-link:hover, .contact-content .logo:hover {
+  background-color: white;
+}
 
 /* ===== FOOTER =====*/
 .footer{
