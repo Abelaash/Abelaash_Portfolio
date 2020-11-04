@@ -74,6 +74,11 @@ img{
   height: auto;
   display: block;
 }
+.max-width{
+    max-width: 1300px;
+    padding: 0 80px;
+    margin: auto;
+}
 
 /*===== CLASS CSS ===== */
 .section-title{
@@ -305,22 +310,6 @@ img{
 }
 
 /* ===== WORK =====*/
-/* ===== WORK =====*/
-.workcontainer{
-  row-gap: 2rem;
-}
-.workimg{
-  box-shadow: 0 4px 25px rgba(14,36,49,.15);
-  border-radius: .5rem;
-  overflow: hidden;
-}
-.workimg img{
-  transition: 1s;
-  cursor: pointer;
-}
-.workimg img:hover{
-  transform: scale(1.1);
-}
 .work .serv-content {
     display: flex;
     flex-wrap: wrap;
@@ -329,7 +318,7 @@ img{
 }
 .work .serv-content .card{
     width: calc(33% - 20px);
-    background: #222;
+    background: rgb(255, 255, 255);
     text-align: center;
     border-radius: 6px;
     padding: 20px 25px;
@@ -337,7 +326,7 @@ img{
     transition: all 0.3s ease;
 }
 .work .serv-content .card:hover{
-    background: purple;
+    background: rgb(70, 137, 182);
 }
 .work .serv-content .card .box{
     transition: all 0.3s ease;
@@ -347,7 +336,7 @@ img{
 }
 .work .serv-content .card i{
     font-size: 50px;
-    color: purple;
+    color: #4070F4;
     transition: color 0.3s ease;
 }
 .work .serv-content .card:hover i{
